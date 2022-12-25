@@ -1,0 +1,12 @@
+digraph G{ 
+Tabla [label = " Tabla De Simbolos ", shape=component, color="/accent4/1:/accent4/4", style=filled, fontsize=20.5]; 
+node [shape=plain] 
+TablaSimbolos [label=< 
+<table border="0" cellborder="1" cellspacing="0"> 
+<tr><td><i><b>Nombre</b></i></td><td><i><b>Tipo</b></i></td><td><i><b>Ambito</b></i></td><td><i><b>Fila</b></i></td><td><i><b>Columna</b></i></td></tr> 
+<tr><td><i><b>x</b></i></td><td><i><b> VARIABLE </b></i></td><td><i><b>Global</b></i></td><td><i><b>1</b></i></td><td><i><b>1</b></i></td></tr> 
+<tr><td><i><b>y</b></i></td><td><i><b> VARIABLE </b></i></td><td><i><b>Global</b></i></td><td><i><b>5</b></i></td><td><i><b>1</b></i></td></tr> 
+</table>> 
+color="/accent6/1:/accent6/6", style=filled]; 
+Tabla -> TablaSimbolos[arrowhead = diamond] 
+} 

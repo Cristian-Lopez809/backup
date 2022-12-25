@@ -1,0 +1,10 @@
+digraph G{ 
+Tabla [label = " Tabla De Errores ", shape=component, color="/accent4/1:/accent4/4", style=filled, fontsize=20.5]; 
+node [shape=plain] 
+TablaSimbolos [label=< 
+<table border="0" cellborder="1" cellspacing="0"> 
+<tr><td><i><b>No.</b></i></td><td><i><b>Descripcion</b></i></td><td><i><b>Fila</b></i></td><td><i><b>Columna</b></i></td><td><i><b>Fecha-Hora</b></i></td></tr> 
+<tr><td><i><b> 0 </b></i></td><td><i><b> Error: el tipo de dato no coincide con el especificado </b></i></td><td><i><b> 3 </b></i></td><td><i><b> 15 </b></i></td><td><i><b> 20/12/2022 00:34:02 </b></i></td></tr><tr><td><i><b> 1 </b></i></td><td><i><b> Error: el tipo de dato no coincide con el especificado </b></i></td><td><i><b> 7 </b></i></td><td><i><b> 38 </b></i></td><td><i><b> 20/12/2022 00:34:02 </b></i></td></tr></table>> 
+color="/accent6/1:/accent6/6", style=filled]; 
+Tabla -> TablaSimbolos[arrowhead = diamond] 
+} 
